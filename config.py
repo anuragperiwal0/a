@@ -10,7 +10,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://anurag:xC6QOmRI7j9i8yj6@anurag.co63n.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = os.environ.get("DATABASE_NAME","anurag")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'anurag_data')
-    SESSION = os.environ.get("SESSION", "BQA_gnpuaHgmzC8Hkp55qtx7e2J6ZVD6v9jQK7oZAuCwGS7BCzL2YHJXB8RqfGQngKMdIqauzrDGv3Ou1ccjcnbGIU9_u7CE3rbFDYlCFDMZYJMO9Jbo6VUQzuxMre>
+    SESSION = os.environ.get("SESSION", "BQA_gnpuaHgmzC8Hkp55qtx7e2J6ZVD6v9jQK7oZAuCwGS7BCzL2YHJXB8RqfGQngKMdIqauzrDGv3Ou1ccjcnbGIU9_u7CE3rbFDYlCFDMZYJMO9Jbo6VUQzuxMrenXJE8hKxKkyX-U-8pUsi_QiMhaF2DJNkAaDylqn0x3G0BhzRT31rkevI9M5q37kOLa7l3LO5gNEUnVdup91eRCVh26T5-qCW8ozLS8LW1BTK_HnYRwytgpMVg7z9fPSUixFvq4DD8NiW9gyjmZ3R8Ik5RPcFGMWBbZLPLcQCnoaETTrfAkpVPkbJJxg8hkkgUhHoIRLzYjFij2zh3oXOmHYjPRAAAAAVLdr70A")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001787652537"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "forwardro_bot")
 
