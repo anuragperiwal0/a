@@ -4,7 +4,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", "15939361"))
     API_HASH = os.environ.get("API_HASH", "f8beb0bd0054a717d84fbe9be12a23ea")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5729803103:AAHeK5aXW8HOpZ7izR6lrmG4DZB0QQZCqWA") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5984638204:AAG2oTXKedFkRfnR1MftvOIsKUrMhpXVits") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "Forward_BOT") 
     OWNER_ID = os.environ.get("OWNER_ID", "5543917190")
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://anurag:xC6QOmRI7j9i8yj6@anurag.co63n.mongodb.net/?retryWrites=true&w=majority")
