@@ -10,7 +10,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://anurag:xC6QOmRI7j9i8yj6@anurag.co63n.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = os.environ.get("DATABASE_NAME","Anurag")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'AForward_data')
-    SESSION = os.environ.get("SESSION", "BQA53JaqcpUg6XtUDZqOAjPSEjOZAz_ZvUZAjTegfxWKazMSBWU0pp5RvzGlXf-6HCTO4Cv-NMh13lDYCxdO7iztArA3QHJ84xBpMD5_WiaVGFm5Okea7OabP9BAOs6aJ6dgw9wwwkvSl2zzECH8cCRxiehGO6-AzvCQ995Xd511hbnTby3zejhl3BlxDe06-I6zG6RfcbjRtooyCt-keRNpn4vUTpCg8ASKAqn-VjnksyzPmRlqmoJUbxYdU0zj8MSN3CNJ5IVUDD7aFq6C_vEjsW8In3-tQA0fd1ML8nODJw9DjUBmkm8_a50a1LjYWHhcWKisFh-PYSTTeu32J0qMOg1h6AA")
+    SESSION = os.environ.get("SESSION", "BQDAeWLYkw-sE04Te_kiUhwK678o5xeb5wpTzW3kqjX15pGgcubrEPR3l3MZNvtONLMMpMzvu2bdjFTCrJeCaI6JuPGkwwn-j5JtEPJjEw-stEhBGJhcNqwnHv-t4GxnUN5KvZpwyYvSmC3Zs-5AVgJCcqylzamwNF_ugByM-mgdz2woIrTxYzrd8dDUhGqfGkBLsJyuo-9YDSlL8IUq7z55YcEEulF2QtsGrAeFezlcBtc3EIuI9Bs-iQM6nkrn1FUHUa9hzV8Ddc6_8RT1JT2RMyAaSWAw5DSjIAYUXSEplNSY8NdKTg3Nqyw2JNB0vMDYVCJETEQOPIEi1FN4SPRLOg1h6AA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001787652537"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "forwardro_bot")
 
